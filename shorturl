@@ -1,0 +1,4 @@
+#!/bin/bash -e
+go get github.com/syndtr/goleveldb/leveldb
+go get github.com/catinello/base62
+go run components/short-url/cmd/shorturld/main.go $@
